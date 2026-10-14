@@ -1,0 +1,73 @@
+{
+  "colorLabel": {
+    "Red": "红色（铁甲战士）",
+    "Green": "绿色（静默猎手）",
+    "Blue": "蓝色（故障机器人）",
+    "Purple": "紫色（观者）",
+    "Colorless": "无色",
+    "Status": "状态",
+    "Curse": "诅咒"
+  },
+  "typeLabel": {
+    "Attack": "攻击",
+    "Skill": "技能",
+    "Power": "能力"
+  },
+  "rarityLabel": {
+    "Common": "普通",
+    "Uncommon": "罕见",
+    "Rare": "稀有"
+  },
+  "cardTypeText": {
+    "Attack": "攻击",
+    "Skill": "技能",
+    "Power": "能力",
+    "Status": "状态",
+    "Curse": "诅咒"
+  },
+  "auth": {
+    "login": "登录",
+    "loginSuccess": "登录成功",
+    "loginFailed": "登录失败",
+    "logout": "退出登录",
+    "confirmLogout": "确定要退出登录吗？",
+    "chooseAvatar": "点击获取微信头像昵称",
+    "avatarSelected": "已选择头像",
+    "nicknamePlaceholder": "或手动输入昵称",
+    "nicknameRequired": "请输入昵称",
+    "cancel": "取消",
+    "confirm": "确定"
+  },
+  "editor": {
+    "sectionTitle": {
+      "properties": "卡牌属性",
+      "name": "卡牌名称",
+      "energy": "能量消耗",
+      "description": "卡牌描述",
+      "art": "自定义卡图",
+      "export": "导出"
+    },
+    "nameInput": "卡牌名称",
+    "namePlaceholder": "输入卡牌名称",
+    "upgraded": "升级",
+    "energyCost": "能量消耗",
+    "upgradedEnergy": "升级能量",
+    "descHint": ">关键词< = 黄色  ｜  #数值# = 绿色  ｜  ＠(半角) = 能量图标",
+    "descPlaceholder": "输入描述文字",
+    "addLine": "添加",
+    "removeLine": "删除",
+    "artUpload": "上传图片",
+    "artChange": "更换图片",
+    "artRemove": "移除图片",
+    "exportPng": "导出 PNG",
+    "shareToChat": "分享到聊天",
+    "shareFailed": "分享失败",
+    "resetCard": "重置卡牌",
+    "confirmReset": "确定要重置吗？",
+    "downloaded": "已下载！",
+    "exportFailed": "导出失败",
+    "selectorType": "类型",
+    "selectorRarity": "稀有度",
+    "selectorColor": "颜色"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "colorLabel": {
+    "Red": "Red (Ironclad)",
+    "Green": "Green (Silent)",
+    "Blue": "Blue (Defect)",
+    "Purple": "Purple (Watcher)",
+    "Colorless": "Colorless",
+    "Status": "Status",
+    "Curse": "Curse"
+  },
+  "typeLabel": {
+    "Attack": "Attack",
+    "Skill": "Skill",
+    "Power": "Power"
+  },
+  "rarityLabel": {
+    "Common": "Common",
+    "Uncommon": "Uncommon",
+    "Rare": "Rare"
+  },
+  "cardTypeText": {
+    "Attack": "Attack",
+    "Skill": "Skill",
+    "Power": "Power",
+    "Status": "Status",
+    "Curse": "Curse"
+  },
+  "auth": {
+    "login": "Login",
+    "loginSuccess": "Login success",
+    "loginFailed": "Login failed",
+    "logout": "Logout",
+    "confirmLogout": "Are you sure you want to logout?",
+    "chooseAvatar": "Tap to get WeChat avatar & nickname",
+    "avatarSelected": "Avatar selected",
+    "nicknamePlaceholder": "Or enter nickname manually",
+    "nicknameRequired": "Please enter a nickname",
+    "cancel": "Cancel",
+    "confirm": "OK"
+  },
+  "editor": {
+    "sectionTitle": {
+      "properties": "Card Properties",
+      "name": "Card Name",
+      "energy": "Energy",
+      "description": "Description",
+      "art": "Custom Art",
+      "export": "Export"
+    },
+    "nameInput": "Card Name",
+    "namePlaceholder": "Enter card name",
+    "upgraded": "Upgraded",
+    "energyCost": "Energy Cost",
+    "upgradedEnergy": "Upgraded Energy",
+    "descHint": ">keyword< = yellow ｜ #value# = green ｜ ＠(half-width) = energy icon",
+    "descPlaceholder": "Enter description",
+    "addLine": "Add",
+    "removeLine": "Remove",
+    "artUpload": "Upload Image",
+    "artChange": "Change Image",
+    "artRemove": "Remove Image",
+    "exportPng": "Export PNG",
+    "shareToChat": "Share to Chat",
+    "shareFailed": "Share failed",
+    "resetCard": "Reset Card",
+    "confirmReset": "Are you sure?",
+    "downloaded": "Downloaded!",
+    "exportFailed": "Export failed",
+    "selectorType": "Type",
+    "selectorRarity": "Rarity",
+    "selectorColor": "Color"
+  }
+}
