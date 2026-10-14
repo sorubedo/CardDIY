@@ -1,10 +1,14 @@
 import { CardColor, CardType, CardRarity, type CardAssets } from '@/types/card'
 
 // 素材基础路径
-const ASSETS_BASE = '/static/card-assets'
+let basePath = '/'
+// #ifdef H5
+basePath = import.meta.env.BASE_URL
+// #endif
+const ASSETS_BASE = `${basePath}static/card-assets`
 
 // 辅助函数：构建资源路径
-function assetPath(category: string, filename: string): string {
+export function assetPath(category: string, filename: string): string {
   return `${ASSETS_BASE}/${category}/${filename}`
 }
 

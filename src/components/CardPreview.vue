@@ -19,6 +19,7 @@ import { ref, watch, onMounted, getCurrentInstance } from 'vue'
 import type { CardData, CardAssets } from '@/types/card'
 import { CARD_WIDTH, CARD_HEIGHT } from '@/constants/card-constants'
 import { useCardRenderer } from '@/composables/useCardRenderer'
+import { assetPath } from '@/utils/asset-resolver'
 
 const props = defineProps<{ cardData: CardData; cardAssets: CardAssets; locale?: string }>()
 const instance = getCurrentInstance()
@@ -34,8 +35,8 @@ watch(() => [props.cardData, props.cardAssets, props.locale], () => {
 async function loadFonts() {
   // #ifdef H5
   for (const cfg of [
-    { family: 'Kreon', source: 'url("/static/card-assets/fonts/Kreon.ttf")' },
-    { family: 'Kreon', source: 'url("/static/card-assets/fonts/Kreon-Bold.ttf")', desc: { style: 'normal', weight: 'bold' } },
+    { family: 'Kreon', source: `url("${assetPath('fonts', 'Kreon.ttf')}")` },
+    { family: 'Kreon', source: `url("${assetPath('fonts', 'Kreon-Bold.ttf')}")`, desc: { style: 'normal', weight: 'bold' } },
   ]) {
     await new Promise<void>((resolve) => {
       uni.loadFontFace({ ...cfg, global: true, success: () => resolve(), fail: () => resolve() })
